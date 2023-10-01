@@ -46,6 +46,7 @@ module.exports = (env, argv) => {
         // Webpack plugin that generates our html file and injects our bundles.
         template: "./index.html",
         title: "J.A.T.E",
+        favicon: "./favicon.ico",
       }),
 
       injectManifest,
