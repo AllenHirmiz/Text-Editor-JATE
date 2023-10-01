@@ -48,7 +48,9 @@ module.exports = (env, argv) => {
         template: "./index.html",
         title: "J.A.T.E",
       }),
-      InjectManifest,
+
+      injectManifest,
+
       new WebpackPwaManifest({
         // Creates a manifest.json file.
         fingerprints: false,
